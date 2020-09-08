@@ -1,5 +1,6 @@
-const Blog = require("./model");
 const { ObjectID } = require("mongodb");
+
+const Blog = require("./model");
 
 const getAll = async (req, res) => {
   try {
